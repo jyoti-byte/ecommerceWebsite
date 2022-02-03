@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+
+.navigation {
+	text-align: center;
+	border-bottom: 3px solid #f1f1f1;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.navigation h2 {
+	font-family: 'Gwendolyn', cursive;
+	font-weight: 700;
+	font-size: 50px;
+    background: linear-gradient(to right, #3dfca4, #7B40E4, #3a9ff5, #EE704A, #2DDD4F);
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    /* text-fill-color: transparent !important; */
+}
+
+.product-block {
+	display: flex;
+}
+
+.product-card {
+	padding: 10px 15px;
+	background-color: #f7f7f7;
+	display: inline-block;
+	border: 1px solid purple;
+}
+
+.product-card + .product-card {
+	margin-left: 20px;
+}
+
+.product-image {
+	position: relative;
+}
+
+.product-image img {
+	height: 200px;
+	width: 200px;
+}
+
+.product-info {
+	margin-top: 10px;
+}
+
+.product-info h2 {
+	text-transform: capitalize;
+	color: #000000;
+	font-weight: 600;
+}
+
+.product-info span {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.product-image span {
+	font-size: 12px;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 3px 5px;
+	text-transform: capitalize;
+}
+
+.in-stock {
+	background-color: green;
+}
+
+.out-stock {
+	background-color: red;
+}
+
+.addtocart-btn {
+	background-color: purple;
+	width: auto;
+	height: 30px;
+}
+
+.p-quantity {
+	height: auto;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.p-card {
+	padding: 10px 15px;
+	background-color: #f7f7f7;
+	display: inline-block;
+	border: 1px solid purple;
+}
+
+.single-product-block img {
+	height: auto;
+	width: 100%;
+}
+
+.single-product-image {
+	padding: 30px;
+}
+
+.single-product-info {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	flex-direction: column;
+}
+
+.single-product-info h2 {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.product-action button {
+	width: 50%;
+	margin-top: 20px;
+}
+
+.product-action input {
+	width: 50%;
+}
+
+.stock-number .availability {
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.stock-number .in-availability {
+	color: #32CD32;
+}
+
+.stock-number .out-availability {
+	color: #FF334C;
+}
